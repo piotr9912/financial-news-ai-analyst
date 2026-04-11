@@ -1,0 +1,10 @@
+import pickle
+
+def predict(text):
+    with open("models/model.pkl", "rb") as f:
+        model, vectorizer = pickle.load(f)
+
+    X = vectorizer.transform([text])
+    prediction = model.predict(X)[0]
+
+    return prediction
