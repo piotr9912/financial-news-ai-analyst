@@ -1,19 +1,28 @@
-# Financial News AI Analyst
+# 📊 Financial News AI Analyst
 
-## 📊 Description
-AI tool that analyzes financial news and detects sentiment.
+## 🚀 Overview
+This project is an AI-powered tool that analyzes financial news and predicts sentiment (positive/negative).
 
-## 🚀 Features
-- sentiment analysis
-- news classification
-- simple predictions
+## 🧠 Features
+- NLP sentiment analysis
+- Machine Learning model
+- REST API (FastAPI)
+- Ready for deployment
 
 ## 🛠 Tech Stack
 - Python
 - Pandas
 - Scikit-learn
+- FastAPI
 
-## ▶️ How to run
+## 📂 Project Structure
+- `src/` → ML logic
+- `app/` → API
+- `models/` → trained model
+- `data/` → datasets
+
+## ▶️ Run locally
+
 ```bash
 pip install -r requirements.txt
 python main.py
