@@ -1,0 +1,21 @@
+financial-news-ai-analyst/
+│
+├── app/
+│   └── api.py
+│
+├── data/
+│
+├── models/
+│
+├── notebooks/
+│
+├── src/
+│   ├── data_loader.py
+│   ├── preprocess.py
+│   ├── train.py
+│   └── predict.py
+│
+├── main.py
+├── requirements.txt
+├── README.md
+└── .gitignore
